@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SmartHomeController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="name_light1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Свет над столом</Value>
+    </Setting>
+    <Setting Name="name_light2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Освещение 1</Value>
+    </Setting>
+    <Setting Name="name_light3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Освещение 2</Value>
+    </Setting>
+    <Setting Name="name_light4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Освещение 3</Value>
+    </Setting>
+    <Setting Name="name_buzzer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Спикер</Value>
+    </Setting>
+    <Setting Name="name_motor1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Вентилятор</Value>
+    </Setting>
+    <Setting Name="name_motor2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Вытяжка</Value>
+    </Setting>
+    <Setting Name="name_motor3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Мотор 1</Value>
+    </Setting>
+    <Setting Name="name_motor4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Мотор 2</Value>
+    </Setting>
+    <Setting Name="name_servo1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Серводвигатель 1</Value>
+    </Setting>
+    <Setting Name="name_servo2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Серводвигатель 2</Value>
+    </Setting>
+    <Setting Name="name_servo3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Серводвигатель 3</Value>
+    </Setting>
+    <Setting Name="name_servo4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Серводвигатель 4</Value>
+    </Setting>
+    <Setting Name="lang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RUS</Value>
+    </Setting>
+    <Setting Name="theme" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="light1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="light2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="light3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="light4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="buzzer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="motor1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="motor2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="motor3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="motor4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="servo1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="servo2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="servo3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="servo4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
