@@ -15,20 +15,18 @@ namespace SmartHomeController
 
         private bool isConnected; // Статус подключения.
         private string selectedPort;
-        private string regPath1 = (@"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize");
+        private string regPath = (@"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize");
         private string theme = "0";
         //string terminalText;
 
         public MainForm()
         {
             InitializeComponent();
-            int majorVer = Environment.OSVersion.Version.Major;
-            int minorVer = Environment.OSVersion.Version.Minor;
-            if (majorVer == 6 & minorVer == 1)
-            {
-                
-            }
-            RegistryKey currentUserKey = Registry.CurrentUser.OpenSubKey(regPath1);
+            this.WindowState = FormWindowState.Normal;
+            this.ShowInTaskbar = true;
+            notifyIcon1.Visible = false;
+            this.FormBorderStyle = FormBorderStyle.Sizable;
+            RegistryKey currentUserKey = Registry.CurrentUser.OpenSubKey(regPath);
 
             if (currentUserKey != null)
             {
@@ -430,8 +428,15 @@ namespace SmartHomeController
 
 		private void toolStripMenuItem49_Click(object sender, EventArgs e)
 		{
-            this.ShowInTaskbar = true; // Возвращаем окно на панель задач.
-            WindowState = FormWindowState.Normal; // Разворачиваем окно
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.ShowInTaskbar = true;
+                notifyIcon1.Visible = false;
+                this.FormBorderStyle = FormBorderStyle.Sizable;
+            }
+            //this.ShowInTaskbar = true; // Возвращаем окно на панель задач.
+            //WindowState = FormWindowState.Normal; // Разворачиваем окно
         }
 
 		private void настройкиToolStripMenuItem_Click(object sender, EventArgs e)
