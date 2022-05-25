@@ -25,7 +25,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Свет над столом")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 1")]
         public string name_light1 {
             get {
                 return ((string)(this["name_light1"]));
@@ -37,7 +37,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 2")]
         public string name_light2 {
             get {
                 return ((string)(this["name_light2"]));
@@ -49,7 +49,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 3")]
         public string name_light3 {
             get {
                 return ((string)(this["name_light3"]));
@@ -61,7 +61,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Освещение 4")]
         public string name_light4 {
             get {
                 return ((string)(this["name_light4"]));
@@ -85,7 +85,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Вентилятор")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 1")]
         public string name_motor1 {
             get {
                 return ((string)(this["name_motor1"]));
@@ -97,7 +97,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Вытяжка")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 2")]
         public string name_motor2 {
             get {
                 return ((string)(this["name_motor2"]));
@@ -109,7 +109,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 3")]
         public string name_motor3 {
             get {
                 return ((string)(this["name_motor3"]));
@@ -121,7 +121,7 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Мотор 4")]
         public string name_motor4 {
             get {
                 return ((string)(this["name_motor4"]));

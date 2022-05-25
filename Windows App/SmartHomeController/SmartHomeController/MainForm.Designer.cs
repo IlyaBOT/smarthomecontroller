@@ -144,6 +144,7 @@ namespace SmartHomeController
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.toolStripMenuItem49 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem50 = new System.Windows.Forms.ToolStripMenuItem();
+			this.timer2 = new System.Windows.Forms.Timer(this.components);
 			this.statusStrip1.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.groupBox1.SuspendLayout();
@@ -249,7 +250,7 @@ namespace SmartHomeController
 			// 
 			this.toolStripComboBox1.BackColor = System.Drawing.Color.White;
 			this.toolStripComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.toolStripComboBox1.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.toolStripComboBox1.ForeColor = System.Drawing.Color.Black;
 			this.toolStripComboBox1.Items.AddRange(new object[] {
             "NULL"});
 			this.toolStripComboBox1.Name = "toolStripComboBox1";
@@ -269,7 +270,7 @@ namespace SmartHomeController
 			// toolStripComboBox2
 			// 
 			this.toolStripComboBox2.BackColor = System.Drawing.Color.White;
-			this.toolStripComboBox2.ForeColor = System.Drawing.SystemColors.WindowText;
+			this.toolStripComboBox2.ForeColor = System.Drawing.Color.Black;
 			this.toolStripComboBox2.Items.AddRange(new object[] {
             "9600",
             "115200"});
@@ -331,6 +332,7 @@ namespace SmartHomeController
 			this.toolStripDropDownButton4.ShowDropDownArrow = false;
 			this.toolStripDropDownButton4.Size = new System.Drawing.Size(111, 23);
 			this.toolStripDropDownButton4.Text = "Освещение";
+			this.toolStripDropDownButton4.Visible = false;
 			// 
 			// toolStripMenuItem2
 			// 
@@ -349,7 +351,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem3.ForeColor = System.Drawing.Color.Lime;
 			this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-			this.toolStripMenuItem3.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem3.Text = "Включить";
 			this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
 			// 
@@ -358,7 +360,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem4.ForeColor = System.Drawing.Color.Red;
 			this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-			this.toolStripMenuItem4.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem4.Text = "Выключить";
 			this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
 			// 
@@ -379,7 +381,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem6.ForeColor = System.Drawing.Color.Lime;
 			this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-			this.toolStripMenuItem6.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem6.Text = "Включить";
 			// 
 			// toolStripMenuItem7
@@ -387,7 +389,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem7.ForeColor = System.Drawing.Color.Red;
 			this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-			this.toolStripMenuItem7.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem7.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem7.Text = "Выключить";
 			// 
 			// toolStripMenuItem8
@@ -407,7 +409,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem9.ForeColor = System.Drawing.Color.Lime;
 			this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-			this.toolStripMenuItem9.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem9.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem9.Text = "Включить";
 			// 
 			// toolStripMenuItem10
@@ -415,7 +417,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem10.ForeColor = System.Drawing.Color.Red;
 			this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-			this.toolStripMenuItem10.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem10.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem10.Text = "Выключить";
 			// 
 			// toolStripMenuItem11
@@ -435,7 +437,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem12.ForeColor = System.Drawing.Color.Lime;
 			this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-			this.toolStripMenuItem12.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem12.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem12.Text = "Включить";
 			// 
 			// toolStripMenuItem13
@@ -443,7 +445,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem13.ForeColor = System.Drawing.Color.Red;
 			this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-			this.toolStripMenuItem13.Size = new System.Drawing.Size(166, 24);
+			this.toolStripMenuItem13.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem13.Text = "Выключить";
 			// 
 			// toolStripDropDownButton2
@@ -464,6 +466,7 @@ namespace SmartHomeController
 			this.toolStripDropDownButton2.Size = new System.Drawing.Size(75, 23);
 			this.toolStripDropDownButton2.Text = "Спикер";
 			this.toolStripDropDownButton2.ToolTipText = "Пищалка";
+			this.toolStripDropDownButton2.Visible = false;
 			// 
 			// toolStripMenuItem17
 			// 
@@ -474,10 +477,9 @@ namespace SmartHomeController
             this.toolStripMenuItem19,
             this.toolStripMenuItem18,
             this.toolStripMenuItem14});
-			this.toolStripMenuItem17.Enabled = false;
 			this.toolStripMenuItem17.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-			this.toolStripMenuItem17.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem17.Text = "Писк BIOS";
 			// 
 			// toolStripMenuItem21
@@ -485,7 +487,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem21.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-			this.toolStripMenuItem21.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem21.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem21.Text = "1 пик";
 			this.toolStripMenuItem21.Click += new System.EventHandler(this.toolStripMenuItem21_Click);
 			// 
@@ -494,7 +496,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem20.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-			this.toolStripMenuItem20.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem20.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem20.Text = "2 пика";
 			this.toolStripMenuItem20.Click += new System.EventHandler(this.toolStripMenuItem20_Click);
 			// 
@@ -503,7 +505,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem19.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-			this.toolStripMenuItem19.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem19.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem19.Text = "3 пика";
 			this.toolStripMenuItem19.Click += new System.EventHandler(this.toolStripMenuItem19_Click);
 			// 
@@ -512,7 +514,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem18.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-			this.toolStripMenuItem18.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem18.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem18.Text = "4 пика";
 			this.toolStripMenuItem18.Click += new System.EventHandler(this.toolStripMenuItem18_Click);
 			// 
@@ -521,7 +523,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem14.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-			this.toolStripMenuItem14.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem14.Text = "5 пиков";
 			this.toolStripMenuItem14.Click += new System.EventHandler(this.toolStripMenuItem14_Click);
 			// 
@@ -534,10 +536,9 @@ namespace SmartHomeController
             this.toolStripMenuItem26,
             this.toolStripMenuItem27,
             this.toolStripMenuItem28});
-			this.toolStripMenuItem16.Enabled = false;
 			this.toolStripMenuItem16.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-			this.toolStripMenuItem16.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem16.Text = "Писк 1 кГц";
 			// 
 			// toolStripMenuItem23
@@ -545,7 +546,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem23.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-			this.toolStripMenuItem23.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem23.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem23.Text = "100 Мс";
 			this.toolStripMenuItem23.Click += new System.EventHandler(this.toolStripMenuItem23_Click);
 			// 
@@ -554,7 +555,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem25.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-			this.toolStripMenuItem25.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem25.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem25.Text = "250 Мс";
 			this.toolStripMenuItem25.Click += new System.EventHandler(this.toolStripMenuItem25_Click);
 			// 
@@ -563,7 +564,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem26.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-			this.toolStripMenuItem26.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem26.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem26.Text = "500 Мс";
 			this.toolStripMenuItem26.Click += new System.EventHandler(this.toolStripMenuItem26_Click);
 			// 
@@ -572,7 +573,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem27.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-			this.toolStripMenuItem27.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem27.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem27.Text = "1 Секунда";
 			this.toolStripMenuItem27.Click += new System.EventHandler(this.toolStripMenuItem27_Click);
 			// 
@@ -581,7 +582,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem28.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-			this.toolStripMenuItem28.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem28.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem28.Text = "2 Секунды";
 			this.toolStripMenuItem28.Click += new System.EventHandler(this.toolStripMenuItem28_Click);
 			// 
@@ -594,10 +595,9 @@ namespace SmartHomeController
             this.toolStripMenuItem31,
             this.toolStripMenuItem32,
             this.toolStripMenuItem33});
-			this.toolStripMenuItem15.Enabled = false;
 			this.toolStripMenuItem15.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-			this.toolStripMenuItem15.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem15.Text = "Писк 2 кГц";
 			// 
 			// toolStripMenuItem24
@@ -605,7 +605,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem24.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-			this.toolStripMenuItem24.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem24.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem24.Text = "100 Мс";
 			this.toolStripMenuItem24.Click += new System.EventHandler(this.toolStripMenuItem24_Click);
 			// 
@@ -614,7 +614,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem30.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-			this.toolStripMenuItem30.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem30.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem30.Text = "250 Мс";
 			this.toolStripMenuItem30.Click += new System.EventHandler(this.toolStripMenuItem30_Click);
 			// 
@@ -623,7 +623,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem31.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-			this.toolStripMenuItem31.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem31.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem31.Text = "500 Мс";
 			this.toolStripMenuItem31.Click += new System.EventHandler(this.toolStripMenuItem31_Click);
 			// 
@@ -632,7 +632,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem32.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem32.Name = "toolStripMenuItem32";
-			this.toolStripMenuItem32.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem32.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem32.Text = "1 Секунда";
 			this.toolStripMenuItem32.Click += new System.EventHandler(this.toolStripMenuItem32_Click);
 			// 
@@ -641,7 +641,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem33.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem33.Name = "toolStripMenuItem33";
-			this.toolStripMenuItem33.Size = new System.Drawing.Size(163, 24);
+			this.toolStripMenuItem33.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem33.Text = "2 Секунды";
 			this.toolStripMenuItem33.Click += new System.EventHandler(this.toolStripMenuItem33_Click);
 			// 
@@ -664,6 +664,7 @@ namespace SmartHomeController
 			this.toolStripDropDownButton5.Size = new System.Drawing.Size(134, 23);
 			this.toolStripDropDownButton5.Text = "Электромотор";
 			this.toolStripDropDownButton5.ToolTipText = "Пищалка";
+			this.toolStripDropDownButton5.Visible = false;
 			// 
 			// toolStripMenuItem45
 			// 
@@ -675,7 +676,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem45.Enabled = false;
 			this.toolStripMenuItem45.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-			this.toolStripMenuItem45.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem45.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem45.Text = "Мотор 1";
 			// 
 			// toolStripMenuItem46
@@ -712,7 +713,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem41.Enabled = false;
 			this.toolStripMenuItem41.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-			this.toolStripMenuItem41.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem41.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem41.Text = "Мотор 2";
 			// 
 			// toolStripMenuItem42
@@ -749,7 +750,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem34.Enabled = false;
 			this.toolStripMenuItem34.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem34.Name = "toolStripMenuItem34";
-			this.toolStripMenuItem34.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem34.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem34.Text = "Мотор 3";
 			// 
 			// toolStripMenuItem37
@@ -786,7 +787,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem29.Enabled = false;
 			this.toolStripMenuItem29.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-			this.toolStripMenuItem29.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem29.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem29.Text = "Мотор 4";
 			// 
 			// toolStripMenuItem36
@@ -908,9 +909,9 @@ namespace SmartHomeController
 			this.label3.ForeColor = System.Drawing.Color.White;
 			this.label3.Location = new System.Drawing.Point(6, 109);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(146, 23);
+			this.label3.Size = new System.Drawing.Size(141, 23);
 			this.label3.TabIndex = 9;
-			this.label3.Text = "Освещение 3:";
+			this.label3.Text = "Освещение 4";
 			// 
 			// label4
 			// 
@@ -920,9 +921,9 @@ namespace SmartHomeController
 			this.label4.ForeColor = System.Drawing.Color.White;
 			this.label4.Location = new System.Drawing.Point(6, 80);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(146, 23);
+			this.label4.Size = new System.Drawing.Size(141, 23);
 			this.label4.TabIndex = 8;
-			this.label4.Text = "Освещение 2:";
+			this.label4.Text = "Освещение 3";
 			// 
 			// label2
 			// 
@@ -932,9 +933,9 @@ namespace SmartHomeController
 			this.label2.ForeColor = System.Drawing.Color.White;
 			this.label2.Location = new System.Drawing.Point(6, 51);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(146, 23);
+			this.label2.Size = new System.Drawing.Size(141, 23);
 			this.label2.TabIndex = 7;
-			this.label2.Text = "Освещение 1:";
+			this.label2.Text = "Освещение 2";
 			// 
 			// label1
 			// 
@@ -1408,6 +1409,8 @@ namespace SmartHomeController
 			// 
 			// toolStripMenuItem49
 			// 
+			this.toolStripMenuItem49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem49.ForeColor = System.Drawing.Color.White;
 			this.toolStripMenuItem49.Name = "toolStripMenuItem49";
 			this.toolStripMenuItem49.Size = new System.Drawing.Size(135, 22);
 			this.toolStripMenuItem49.Text = "Развернуть";
@@ -1415,10 +1418,18 @@ namespace SmartHomeController
 			// 
 			// toolStripMenuItem50
 			// 
+			this.toolStripMenuItem50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem50.ForeColor = System.Drawing.Color.White;
 			this.toolStripMenuItem50.Name = "toolStripMenuItem50";
 			this.toolStripMenuItem50.Size = new System.Drawing.Size(135, 22);
 			this.toolStripMenuItem50.Text = "Закрыть";
 			this.toolStripMenuItem50.Click += new System.EventHandler(this.toolStripMenuItem50_Click);
+			// 
+			// timer2
+			// 
+			this.timer2.Enabled = true;
+			this.timer2.Interval = 512;
+			this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
 			// 
 			// MainForm
 			// 
@@ -1573,6 +1584,7 @@ namespace SmartHomeController
 		private ContextMenuStrip contextMenuStrip1;
 		private ToolStripMenuItem toolStripMenuItem49;
 		private ToolStripMenuItem toolStripMenuItem50;
+		private Timer timer2;
 	}
 }
 
