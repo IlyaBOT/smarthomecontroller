@@ -91,28 +91,6 @@ namespace SmartHomeController
 			checkBox11.Checked = Properties.Settings.Default.servo3;
 			checkBox10.Checked = Properties.Settings.Default.servo4;
 		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			settings_save();
-		}
-
-		private void button2_Click(object sender, EventArgs e)
-		{
-			settings_save();
-			this.Close();
-		}
-
-		private void button4_Click(object sender, EventArgs e)
-		{
-			settings_save();
-		}
-
-		private void button3_Click(object sender, EventArgs e)
-		{
-			settings_save();
-			this.Close();
-		}
 		private void settings_save()
 		{
 			if (comboBox1.SelectedIndex == 0)
@@ -171,6 +149,28 @@ namespace SmartHomeController
 			Properties.Settings.Default.servo4 = checkBox10.Checked;
 
 			Properties.Settings.Default.Save();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			settings_save();
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			settings_save();
+			this.Close();
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			settings_save();
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			settings_save();
+			this.Close();
 		}
 	}
 }

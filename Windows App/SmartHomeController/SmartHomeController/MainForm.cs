@@ -15,13 +15,13 @@ namespace SmartHomeController
 
         private bool isConnected; // Статус подключения.
         private string selectedPort;
-        private string regPath = (@"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize");
+        private string regPath1 = (@"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize");
         private string theme = "0";
 
         public MainForm()
         {
             InitializeComponent();
-            RegistryKey currentUserKey = Registry.CurrentUser.OpenSubKey(regPath);
+            RegistryKey currentUserKey = Registry.CurrentUser.OpenSubKey(regPath1);
             if (currentUserKey != null)
             {
                 theme = currentUserKey.GetValue("AppsUseLightTheme").ToString();

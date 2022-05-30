@@ -1,54 +1,24 @@
+G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.exe.config
 G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.exe
 G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.pdb
 G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\ru-RU\SmartHomeController.resources.dll
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.resources
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Properties.Resources.resources
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.ru-RU.resources
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.GenerateResource.Cache
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\ru-RU\SmartHomeController.resources.dll
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.exe
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.pdb
-F:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.exe
-F:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.pdb
-E:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.exe
-E:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.pdb
-G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.exe.config
 G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\Guna.UI2.dll
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.AssemblyReference.cache
 G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.SuggestedBindingRedirects.cache
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\Interop.SHDocVw.dll
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\Interop.WMPLib.dll
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.ResolveComReference.cache
 G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.AboutBox1.resources
 G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Logo.resources
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CoreCompileInputs.cache
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CopyComplete
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\Interop.SHDocVw.dll
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.ResolveComReference.cache
-G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\Interop.WMPLib.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.exe.config
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.exe
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\SmartHomeController.pdb
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\ru-RU\SmartHomeController.resources.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\Guna.Charts.WinForms.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\Guna.UI2.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\Interop.SHDocVw.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\Interop.WMPLib.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\AxInterop.SHDocVw.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.AssemblyReference.cache
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.SuggestedBindingRedirects.cache
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\Interop.SHDocVw.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\Interop.WMPLib.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\AxInterop.SHDocVw.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\AxInterop.WMPLib.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.ResolveComReference.cache
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.AboutBox1.resources
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Logo.resources
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.resources
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Properties.Resources.resources
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.ru-RU.resources
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.GenerateResource.cache
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CoreCompileInputs.cache
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\ru-RU\SmartHomeController.resources.dll
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CopyComplete
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.exe
-C:\Users\ponfertato\OneDrive\Документы\Project\JetBrains\Rider\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.pdb
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.resources
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Properties.Resources.resources
 G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.Settings.resources
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.MainForm.ru-RU.resources
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.GenerateResource.cache
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CoreCompileInputs.cache
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\ru-RU\SmartHomeController.resources.dll
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.csproj.CopyComplete
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.exe
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\SmartHomeController.pdb
+G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\Interop.WMPLib.dll
+G:\My Programming Projects\SmartHomeController\SmartHomeController\bin\Debug\AxInterop.WMPLib.dll
+G:\My Programming Projects\SmartHomeController\SmartHomeController\obj\Beta\AxInterop.WMPLib.dll
