@@ -215,11 +215,125 @@ namespace SmartHomeController
                 disconnectFromArduino();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+
+        // Light
+        private void guna2TrackBar1_Scroll(object sender, ScrollEventArgs e)
         {
             serialPort1.Write("2," + guna2TrackBar1.Value + ";");
+        }
+
+
+        // Buzzer
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("1," + guna2NumericUpDown1.Value + "," + guna2NumericUpDown2.Value + ";");
+        }
+
+
+        // Motors
+        private void guna2TrackBar5_Scroll(object sender, ScrollEventArgs e)
+        {
             serialPort1.Write("3," + guna2TrackBar5.Value + ";");
+        }
+
+        private void toolStripMenuItem46_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("3,1023;");
+        }
+
+        private void toolStripMenuItem47_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("3,512;");
+        }
+
+        private void toolStripMenuItem48_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("3,0;");
+        }
+
+
+        // Servos
+        private void guna2TrackBar12_Scroll(object sender, ScrollEventArgs e)
+        {
             serialPort1.Write("4," + guna2TrackBar12.Value + ";");
+        }
+
+
+        // Switches
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("5,1;");
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("5,0;");
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("6,1;");
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("6,0;");
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+            
+            
         }
 
         private void toolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -265,11 +379,6 @@ namespace SmartHomeController
 		private void toolStripMenuItem4_Click(object sender, EventArgs e)
 		{
             guna2TrackBar1.Value = 0;
-        }
-
-		private void guna2Button1_Click(object sender, EventArgs e)
-		{
-            serialPort1.Write("1," + guna2NumericUpDown1.Value + "," + guna2NumericUpDown2.Value + ";");
         }
 
 		private void toolStripMenuItem21_Click(object sender, EventArgs e)
@@ -540,6 +649,61 @@ namespace SmartHomeController
                     groupBox4.Visible = true;
                     groupBox4.Enabled = true;
                 }
+
+                label19.Visible = Properties.Settings.Default.switch1;
+                label19.Enabled = Properties.Settings.Default.switch1;
+                guna2Button2.Visible = Properties.Settings.Default.switch1;
+                guna2Button2.Enabled = Properties.Settings.Default.switch1;
+                guna2Button3.Visible = Properties.Settings.Default.switch1;
+                guna2Button3.Enabled = Properties.Settings.Default.switch1;
+                label18.Visible = Properties.Settings.Default.switch2;
+                label18.Enabled = Properties.Settings.Default.switch2;
+                guna2Button4.Visible = Properties.Settings.Default.switch2;
+                guna2Button4.Enabled = Properties.Settings.Default.switch2;
+                guna2Button5.Visible = Properties.Settings.Default.switch2;
+                guna2Button5.Enabled = Properties.Settings.Default.switch2;
+                label16.Visible = Properties.Settings.Default.switch3;
+                label16.Enabled = Properties.Settings.Default.switch3;
+                guna2Button6.Visible = Properties.Settings.Default.switch3;
+                guna2Button6.Enabled = Properties.Settings.Default.switch3;
+                guna2Button7.Visible = Properties.Settings.Default.switch3;
+                guna2Button7.Enabled = Properties.Settings.Default.switch3;
+                label17.Visible = Properties.Settings.Default.switch4;
+                label17.Enabled = Properties.Settings.Default.switch4;
+                guna2Button8.Visible = Properties.Settings.Default.switch4;
+                guna2Button8.Enabled = Properties.Settings.Default.switch4;
+                guna2Button9.Visible = Properties.Settings.Default.switch4;
+                guna2Button9.Enabled = Properties.Settings.Default.switch4;
+                label20.Visible = Properties.Settings.Default.switch5;
+                label20.Enabled = Properties.Settings.Default.switch5;
+                guna2Button10.Visible = Properties.Settings.Default.switch5;
+                guna2Button10.Enabled = Properties.Settings.Default.switch5;
+                guna2Button11.Visible = Properties.Settings.Default.switch5;
+                guna2Button11.Enabled = Properties.Settings.Default.switch5;
+                label21.Visible = Properties.Settings.Default.switch6;
+                label21.Enabled = Properties.Settings.Default.switch6;
+                guna2Button12.Visible = Properties.Settings.Default.switch6;
+                guna2Button12.Enabled = Properties.Settings.Default.switch6;
+                guna2Button13.Visible = Properties.Settings.Default.switch6;
+                guna2Button13.Enabled = Properties.Settings.Default.switch6;
+                label22.Visible = Properties.Settings.Default.switch7;
+                label22.Enabled = Properties.Settings.Default.switch7;
+                guna2Button14.Visible = Properties.Settings.Default.switch7;
+                guna2Button14.Enabled = Properties.Settings.Default.switch7;
+                guna2Button15.Visible = Properties.Settings.Default.switch7;
+                guna2Button15.Enabled = Properties.Settings.Default.switch7;
+
+
+                if (Properties.Settings.Default.switch1 == false && Properties.Settings.Default.switch2 == false && Properties.Settings.Default.switch3 == false && Properties.Settings.Default.switch4 == false && Properties.Settings.Default.switch5 == false && Properties.Settings.Default.switch6 == false && Properties.Settings.Default.switch7 == false)
+                {
+                    groupBox5.Visible = false;
+                    groupBox5.Enabled = false;
+                }
+                else
+                {
+                    groupBox5.Visible = true;
+                    groupBox5.Enabled = true;
+                }
             }
                 //Установка названий
                 label1.Text = Properties.Settings.Default.name_light1;
@@ -569,11 +733,7 @@ namespace SmartHomeController
                 label11.Text = Properties.Settings.Default.name_servo3;
                 label12.Text = Properties.Settings.Default.name_servo4;
         }
-		private void timer2_Tick(object sender, EventArgs e)
-		{
-            settings_load();
-        }
-
+	
         private void lang_change()
 		{
             if (Properties.Settings.Default.lang == "RUS")
@@ -589,5 +749,13 @@ namespace SmartHomeController
                 отключениеОтКонтроллераToolStripMenuItem.Text = "Connect to controller";
             }
         }
-    }
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
+        }
+        private void MainForm_Activated(object sender, EventArgs e)
+		{
+            settings_load();
+        }
+	}
 }

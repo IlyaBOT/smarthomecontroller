@@ -86,5 +86,47 @@
     <Setting Name="servo4" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="switch1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="switch2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="switch3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="switch4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="switch5" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="switch6" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="switch7" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="name_switch1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 1</Value>
+    </Setting>
+    <Setting Name="name_switch2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 2</Value>
+    </Setting>
+    <Setting Name="name_switch3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 3</Value>
+    </Setting>
+    <Setting Name="name_switch4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 4</Value>
+    </Setting>
+    <Setting Name="name_switch5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 5</Value>
+    </Setting>
+    <Setting Name="name_switch6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 6</Value>
+    </Setting>
+    <Setting Name="name_switch7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Реле 7</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

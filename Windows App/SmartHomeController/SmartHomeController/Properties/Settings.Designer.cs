@@ -358,5 +358,173 @@ namespace SmartHomeController.Properties {
                 this["servo4"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool switch1 {
+            get {
+                return ((bool)(this["switch1"]));
+            }
+            set {
+                this["switch1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch2 {
+            get {
+                return ((bool)(this["switch2"]));
+            }
+            set {
+                this["switch2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch3 {
+            get {
+                return ((bool)(this["switch3"]));
+            }
+            set {
+                this["switch3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch4 {
+            get {
+                return ((bool)(this["switch4"]));
+            }
+            set {
+                this["switch4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch5 {
+            get {
+                return ((bool)(this["switch5"]));
+            }
+            set {
+                this["switch5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch6 {
+            get {
+                return ((bool)(this["switch6"]));
+            }
+            set {
+                this["switch6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch7 {
+            get {
+                return ((bool)(this["switch7"]));
+            }
+            set {
+                this["switch7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 1")]
+        public string name_switch1 {
+            get {
+                return ((string)(this["name_switch1"]));
+            }
+            set {
+                this["name_switch1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 2")]
+        public string name_switch2 {
+            get {
+                return ((string)(this["name_switch2"]));
+            }
+            set {
+                this["name_switch2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 3")]
+        public string name_switch3 {
+            get {
+                return ((string)(this["name_switch3"]));
+            }
+            set {
+                this["name_switch3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 4")]
+        public string name_switch4 {
+            get {
+                return ((string)(this["name_switch4"]));
+            }
+            set {
+                this["name_switch4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 5")]
+        public string name_switch5 {
+            get {
+                return ((string)(this["name_switch5"]));
+            }
+            set {
+                this["name_switch5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 6")]
+        public string name_switch6 {
+            get {
+                return ((string)(this["name_switch6"]));
+            }
+            set {
+                this["name_switch6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Реле 7")]
+        public string name_switch7 {
+            get {
+                return ((string)(this["name_switch7"]));
+            }
+            set {
+                this["name_switch7"] = value;
+            }
+        }
     }
 }

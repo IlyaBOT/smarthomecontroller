@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-SmartHomeController",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-MainForm",
+      "appliesTo": "MainForm.cs",
+      "type": "launch"
+    }
+  ]
+}

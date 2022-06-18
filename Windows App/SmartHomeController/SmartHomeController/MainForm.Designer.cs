@@ -145,6 +145,75 @@ namespace SmartHomeController
 			this.toolStripMenuItem49 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem50 = new System.Windows.Forms.ToolStripMenuItem();
 			this.timer2 = new System.Windows.Forms.Timer(this.components);
+			this.groupBox5 = new System.Windows.Forms.GroupBox();
+			this.label16 = new System.Windows.Forms.Label();
+			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.label19 = new System.Windows.Forms.Label();
+			this.label20 = new System.Windows.Forms.Label();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
+			this.toolStripDropDownButton6 = new System.Windows.Forms.ToolStripDropDownButton();
+			this.toolStripMenuItem51 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem52 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem53 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem54 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem55 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem59 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem63 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem67 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem68 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem69 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem70 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem71 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem72 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem73 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem56 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem57 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem58 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem74 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem75 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem60 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem61 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem62 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem65 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem66 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripDropDownButton7 = new System.Windows.Forms.ToolStripDropDownButton();
+			this.toolStripMenuItem64 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem76 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem78 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem77 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem79 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem80 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem81 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem82 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem83 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem84 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem85 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem86 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem87 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem88 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem89 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem90 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem91 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem92 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem93 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem94 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem95 = new System.Windows.Forms.ToolStripMenuItem();
 			this.statusStrip1.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.groupBox1.SuspendLayout();
@@ -154,6 +223,7 @@ namespace SmartHomeController
 			this.groupBox3.SuspendLayout();
 			this.groupBox4.SuspendLayout();
 			this.contextMenuStrip1.SuspendLayout();
+			this.groupBox5.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// statusStrip1
@@ -197,6 +267,8 @@ namespace SmartHomeController
             this.toolStripDropDownButton4,
             this.toolStripDropDownButton2,
             this.toolStripDropDownButton5,
+            this.toolStripDropDownButton6,
+            this.toolStripDropDownButton7,
             this.toolStripSeparator1,
             this.toolStripDropDownButton3});
 			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -479,7 +551,7 @@ namespace SmartHomeController
             this.toolStripMenuItem14});
 			this.toolStripMenuItem17.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-			this.toolStripMenuItem17.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem17.Text = "Писк BIOS";
 			// 
 			// toolStripMenuItem21
@@ -487,7 +559,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem21.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-			this.toolStripMenuItem21.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem21.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem21.Text = "1 пик";
 			this.toolStripMenuItem21.Click += new System.EventHandler(this.toolStripMenuItem21_Click);
 			// 
@@ -496,7 +568,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem20.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-			this.toolStripMenuItem20.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem20.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem20.Text = "2 пика";
 			this.toolStripMenuItem20.Click += new System.EventHandler(this.toolStripMenuItem20_Click);
 			// 
@@ -505,7 +577,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem19.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-			this.toolStripMenuItem19.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem19.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem19.Text = "3 пика";
 			this.toolStripMenuItem19.Click += new System.EventHandler(this.toolStripMenuItem19_Click);
 			// 
@@ -514,7 +586,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem18.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-			this.toolStripMenuItem18.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem18.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem18.Text = "4 пика";
 			this.toolStripMenuItem18.Click += new System.EventHandler(this.toolStripMenuItem18_Click);
 			// 
@@ -523,7 +595,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.toolStripMenuItem14.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-			this.toolStripMenuItem14.Size = new System.Drawing.Size(139, 24);
+			this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem14.Text = "5 пиков";
 			this.toolStripMenuItem14.Click += new System.EventHandler(this.toolStripMenuItem14_Click);
 			// 
@@ -538,7 +610,7 @@ namespace SmartHomeController
             this.toolStripMenuItem28});
 			this.toolStripMenuItem16.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-			this.toolStripMenuItem16.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem16.Text = "Писк 1 кГц";
 			// 
 			// toolStripMenuItem23
@@ -597,7 +669,7 @@ namespace SmartHomeController
             this.toolStripMenuItem33});
 			this.toolStripMenuItem15.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-			this.toolStripMenuItem15.Size = new System.Drawing.Size(162, 24);
+			this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem15.Text = "Писк 2 кГц";
 			// 
 			// toolStripMenuItem24
@@ -676,7 +748,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem45.Enabled = false;
 			this.toolStripMenuItem45.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-			this.toolStripMenuItem45.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem45.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem45.Text = "Мотор 1";
 			// 
 			// toolStripMenuItem46
@@ -686,6 +758,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem46.Name = "toolStripMenuItem46";
 			this.toolStripMenuItem46.Size = new System.Drawing.Size(240, 24);
 			this.toolStripMenuItem46.Text = "Включить";
+			this.toolStripMenuItem46.Click += new System.EventHandler(this.toolStripMenuItem46_Click);
 			// 
 			// toolStripMenuItem47
 			// 
@@ -694,6 +767,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem47.Name = "toolStripMenuItem47";
 			this.toolStripMenuItem47.Size = new System.Drawing.Size(240, 24);
 			this.toolStripMenuItem47.Text = "Половина скорости";
+			this.toolStripMenuItem47.Click += new System.EventHandler(this.toolStripMenuItem47_Click);
 			// 
 			// toolStripMenuItem48
 			// 
@@ -702,6 +776,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem48.Name = "toolStripMenuItem48";
 			this.toolStripMenuItem48.Size = new System.Drawing.Size(240, 24);
 			this.toolStripMenuItem48.Text = "Выключить";
+			this.toolStripMenuItem48.Click += new System.EventHandler(this.toolStripMenuItem48_Click);
 			// 
 			// toolStripMenuItem41
 			// 
@@ -713,7 +788,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem41.Enabled = false;
 			this.toolStripMenuItem41.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-			this.toolStripMenuItem41.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem41.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem41.Text = "Мотор 2";
 			// 
 			// toolStripMenuItem42
@@ -750,7 +825,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem34.Enabled = false;
 			this.toolStripMenuItem34.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem34.Name = "toolStripMenuItem34";
-			this.toolStripMenuItem34.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem34.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem34.Text = "Мотор 3";
 			// 
 			// toolStripMenuItem37
@@ -787,7 +862,7 @@ namespace SmartHomeController
 			this.toolStripMenuItem29.Enabled = false;
 			this.toolStripMenuItem29.ForeColor = System.Drawing.Color.WhiteSmoke;
 			this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-			this.toolStripMenuItem29.Size = new System.Drawing.Size(144, 24);
+			this.toolStripMenuItem29.Size = new System.Drawing.Size(180, 24);
 			this.toolStripMenuItem29.Text = "Мотор 4";
 			// 
 			// toolStripMenuItem36
@@ -878,6 +953,7 @@ namespace SmartHomeController
 			this.guna2TrackBar1.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
 			this.guna2TrackBar1.Value = 0;
 			this.guna2TrackBar1.Visible = false;
+			this.guna2TrackBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar1_Scroll);
 			// 
 			// groupBox1
 			// 
@@ -1062,7 +1138,7 @@ namespace SmartHomeController
 			this.guna2NumericUpDown2.TabIndex = 2;
 			this.guna2NumericUpDown2.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
 			this.guna2NumericUpDown2.Value = new decimal(new int[] {
-            500,
+            250,
             0,
             0,
             0});
@@ -1087,7 +1163,7 @@ namespace SmartHomeController
 			this.guna2NumericUpDown1.TabIndex = 1;
 			this.guna2NumericUpDown1.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
 			this.guna2NumericUpDown1.Value = new decimal(new int[] {
-            2048,
+            2000,
             0,
             0,
             0});
@@ -1244,6 +1320,7 @@ namespace SmartHomeController
 			this.guna2TrackBar5.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
 			this.guna2TrackBar5.Value = 0;
 			this.guna2TrackBar5.Visible = false;
+			this.guna2TrackBar5.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar5_Scroll);
 			// 
 			// groupBox4
 			// 
@@ -1375,6 +1452,7 @@ namespace SmartHomeController
 			this.guna2TrackBar12.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
 			this.guna2TrackBar12.Value = 0;
 			this.guna2TrackBar12.Visible = false;
+			this.guna2TrackBar12.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar12_Scroll);
 			// 
 			// label15
 			// 
@@ -1432,6 +1510,832 @@ namespace SmartHomeController
 			this.timer2.Interval = 512;
 			this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
 			// 
+			// groupBox5
+			// 
+			this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.groupBox5.Controls.Add(this.guna2Button14);
+			this.groupBox5.Controls.Add(this.guna2Button15);
+			this.groupBox5.Controls.Add(this.guna2Button12);
+			this.groupBox5.Controls.Add(this.guna2Button13);
+			this.groupBox5.Controls.Add(this.guna2Button10);
+			this.groupBox5.Controls.Add(this.guna2Button11);
+			this.groupBox5.Controls.Add(this.guna2Button8);
+			this.groupBox5.Controls.Add(this.guna2Button9);
+			this.groupBox5.Controls.Add(this.guna2Button6);
+			this.groupBox5.Controls.Add(this.guna2Button7);
+			this.groupBox5.Controls.Add(this.guna2Button4);
+			this.groupBox5.Controls.Add(this.guna2Button5);
+			this.groupBox5.Controls.Add(this.guna2Button3);
+			this.groupBox5.Controls.Add(this.guna2Button2);
+			this.groupBox5.Controls.Add(this.label22);
+			this.groupBox5.Controls.Add(this.label20);
+			this.groupBox5.Controls.Add(this.label21);
+			this.groupBox5.Controls.Add(this.label16);
+			this.groupBox5.Controls.Add(this.label17);
+			this.groupBox5.Controls.Add(this.label18);
+			this.groupBox5.Controls.Add(this.label19);
+			this.groupBox5.Enabled = false;
+			this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.groupBox5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.groupBox5.ForeColor = System.Drawing.Color.White;
+			this.groupBox5.Location = new System.Drawing.Point(412, 178);
+			this.groupBox5.Name = "groupBox5";
+			this.groupBox5.Size = new System.Drawing.Size(394, 232);
+			this.groupBox5.TabIndex = 21;
+			this.groupBox5.TabStop = false;
+			this.groupBox5.Text = "Выключатель";
+			this.groupBox5.Visible = false;
+			// 
+			// label16
+			// 
+			this.label16.AutoSize = true;
+			this.label16.BackColor = System.Drawing.Color.Transparent;
+			this.label16.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label16.Location = new System.Drawing.Point(6, 79);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(71, 23);
+			this.label16.TabIndex = 19;
+			this.label16.Text = "Реле 3";
+			// 
+			// label17
+			// 
+			this.label17.AutoSize = true;
+			this.label17.BackColor = System.Drawing.Color.Transparent;
+			this.label17.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label17.Location = new System.Drawing.Point(6, 108);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(71, 23);
+			this.label17.TabIndex = 18;
+			this.label17.Text = "Реле 4";
+			// 
+			// label18
+			// 
+			this.label18.AutoSize = true;
+			this.label18.BackColor = System.Drawing.Color.Transparent;
+			this.label18.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label18.Location = new System.Drawing.Point(6, 51);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(71, 23);
+			this.label18.TabIndex = 10;
+			this.label18.Text = "Реле 2";
+			// 
+			// label19
+			// 
+			this.label19.AutoSize = true;
+			this.label19.BackColor = System.Drawing.Color.Transparent;
+			this.label19.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label19.Location = new System.Drawing.Point(6, 22);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(71, 23);
+			this.label19.TabIndex = 8;
+			this.label19.Text = "Реле 1";
+			// 
+			// label20
+			// 
+			this.label20.AutoSize = true;
+			this.label20.BackColor = System.Drawing.Color.Transparent;
+			this.label20.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label20.Location = new System.Drawing.Point(6, 137);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(71, 23);
+			this.label20.TabIndex = 23;
+			this.label20.Text = "Реле 5";
+			// 
+			// label21
+			// 
+			this.label21.AutoSize = true;
+			this.label21.BackColor = System.Drawing.Color.Transparent;
+			this.label21.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label21.Location = new System.Drawing.Point(6, 166);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(71, 23);
+			this.label21.TabIndex = 22;
+			this.label21.Text = "Реле 6";
+			// 
+			// label22
+			// 
+			this.label22.AutoSize = true;
+			this.label22.BackColor = System.Drawing.Color.Transparent;
+			this.label22.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label22.Location = new System.Drawing.Point(6, 195);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(71, 23);
+			this.label22.TabIndex = 25;
+			this.label22.Text = "Реле 7";
+			// 
+			// guna2Button2
+			// 
+			this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button2.BorderRadius = 8;
+			this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button2.ForeColor = System.Drawing.Color.White;
+			this.guna2Button2.Location = new System.Drawing.Point(202, 22);
+			this.guna2Button2.Name = "guna2Button2";
+			this.guna2Button2.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button2.TabIndex = 26;
+			this.guna2Button2.Text = "ВКЛ";
+			this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+			// 
+			// guna2Button3
+			// 
+			this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button3.BorderRadius = 8;
+			this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button3.ForeColor = System.Drawing.Color.White;
+			this.guna2Button3.Location = new System.Drawing.Point(295, 22);
+			this.guna2Button3.Name = "guna2Button3";
+			this.guna2Button3.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button3.TabIndex = 27;
+			this.guna2Button3.Text = "ВЫКЛ";
+			this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+			// 
+			// guna2Button4
+			// 
+			this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button4.BorderRadius = 8;
+			this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button4.ForeColor = System.Drawing.Color.White;
+			this.guna2Button4.Location = new System.Drawing.Point(295, 51);
+			this.guna2Button4.Name = "guna2Button4";
+			this.guna2Button4.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button4.TabIndex = 29;
+			this.guna2Button4.Text = "ВЫКЛ";
+			this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+			// 
+			// guna2Button5
+			// 
+			this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button5.BorderRadius = 8;
+			this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button5.ForeColor = System.Drawing.Color.White;
+			this.guna2Button5.Location = new System.Drawing.Point(202, 51);
+			this.guna2Button5.Name = "guna2Button5";
+			this.guna2Button5.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button5.TabIndex = 28;
+			this.guna2Button5.Text = "ВКЛ";
+			this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+			// 
+			// guna2Button6
+			// 
+			this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button6.BorderRadius = 8;
+			this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button6.ForeColor = System.Drawing.Color.White;
+			this.guna2Button6.Location = new System.Drawing.Point(295, 79);
+			this.guna2Button6.Name = "guna2Button6";
+			this.guna2Button6.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button6.TabIndex = 31;
+			this.guna2Button6.Text = "ВЫКЛ";
+			this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+			// 
+			// guna2Button7
+			// 
+			this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button7.BorderRadius = 8;
+			this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button7.ForeColor = System.Drawing.Color.White;
+			this.guna2Button7.Location = new System.Drawing.Point(202, 79);
+			this.guna2Button7.Name = "guna2Button7";
+			this.guna2Button7.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button7.TabIndex = 30;
+			this.guna2Button7.Text = "ВКЛ";
+			this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+			// 
+			// guna2Button8
+			// 
+			this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button8.BorderRadius = 8;
+			this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button8.ForeColor = System.Drawing.Color.White;
+			this.guna2Button8.Location = new System.Drawing.Point(295, 108);
+			this.guna2Button8.Name = "guna2Button8";
+			this.guna2Button8.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button8.TabIndex = 33;
+			this.guna2Button8.Text = "ВЫКЛ";
+			this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+			// 
+			// guna2Button9
+			// 
+			this.guna2Button9.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button9.BorderRadius = 8;
+			this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button9.ForeColor = System.Drawing.Color.White;
+			this.guna2Button9.Location = new System.Drawing.Point(202, 108);
+			this.guna2Button9.Name = "guna2Button9";
+			this.guna2Button9.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button9.TabIndex = 32;
+			this.guna2Button9.Text = "ВКЛ";
+			this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
+			// 
+			// guna2Button10
+			// 
+			this.guna2Button10.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button10.BorderRadius = 8;
+			this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button10.ForeColor = System.Drawing.Color.White;
+			this.guna2Button10.Location = new System.Drawing.Point(295, 137);
+			this.guna2Button10.Name = "guna2Button10";
+			this.guna2Button10.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button10.TabIndex = 35;
+			this.guna2Button10.Text = "ВЫКЛ";
+			this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
+			// 
+			// guna2Button11
+			// 
+			this.guna2Button11.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button11.BorderRadius = 8;
+			this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button11.ForeColor = System.Drawing.Color.White;
+			this.guna2Button11.Location = new System.Drawing.Point(202, 137);
+			this.guna2Button11.Name = "guna2Button11";
+			this.guna2Button11.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button11.TabIndex = 34;
+			this.guna2Button11.Text = "ВКЛ";
+			this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
+			// 
+			// guna2Button12
+			// 
+			this.guna2Button12.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button12.BorderRadius = 8;
+			this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button12.ForeColor = System.Drawing.Color.White;
+			this.guna2Button12.Location = new System.Drawing.Point(295, 166);
+			this.guna2Button12.Name = "guna2Button12";
+			this.guna2Button12.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button12.TabIndex = 37;
+			this.guna2Button12.Text = "ВЫКЛ";
+			this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
+			// 
+			// guna2Button13
+			// 
+			this.guna2Button13.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button13.BorderRadius = 8;
+			this.guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button13.ForeColor = System.Drawing.Color.White;
+			this.guna2Button13.Location = new System.Drawing.Point(202, 166);
+			this.guna2Button13.Name = "guna2Button13";
+			this.guna2Button13.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button13.TabIndex = 36;
+			this.guna2Button13.Text = "ВКЛ";
+			this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
+			// 
+			// guna2Button14
+			// 
+			this.guna2Button14.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button14.BorderRadius = 8;
+			this.guna2Button14.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button14.ForeColor = System.Drawing.Color.White;
+			this.guna2Button14.Location = new System.Drawing.Point(295, 195);
+			this.guna2Button14.Name = "guna2Button14";
+			this.guna2Button14.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button14.TabIndex = 39;
+			this.guna2Button14.Text = "ВЫКЛ";
+			this.guna2Button14.Click += new System.EventHandler(this.guna2Button14_Click);
+			// 
+			// guna2Button15
+			// 
+			this.guna2Button15.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button15.BorderRadius = 8;
+			this.guna2Button15.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button15.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+			this.guna2Button15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button15.ForeColor = System.Drawing.Color.White;
+			this.guna2Button15.Location = new System.Drawing.Point(202, 195);
+			this.guna2Button15.Name = "guna2Button15";
+			this.guna2Button15.Size = new System.Drawing.Size(93, 23);
+			this.guna2Button15.TabIndex = 38;
+			this.guna2Button15.Text = "ВКЛ";
+			this.guna2Button15.Click += new System.EventHandler(this.guna2Button15_Click);
+			// 
+			// toolStripDropDownButton6
+			// 
+			this.toolStripDropDownButton6.BackColor = System.Drawing.Color.Transparent;
+			this.toolStripDropDownButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.toolStripDropDownButton6.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem51,
+            this.toolStripMenuItem55,
+            this.toolStripMenuItem59,
+            this.toolStripMenuItem63});
+			this.toolStripDropDownButton6.Enabled = false;
+			this.toolStripDropDownButton6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.toolStripDropDownButton6.ForeColor = System.Drawing.Color.Silver;
+			this.toolStripDropDownButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton6.Image")));
+			this.toolStripDropDownButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripDropDownButton6.Name = "toolStripDropDownButton6";
+			this.toolStripDropDownButton6.ShowDropDownArrow = false;
+			this.toolStripDropDownButton6.Size = new System.Drawing.Size(125, 23);
+			this.toolStripDropDownButton6.Text = "Сервопривод";
+			this.toolStripDropDownButton6.ToolTipText = "Пищалка";
+			this.toolStripDropDownButton6.Visible = false;
+			// 
+			// toolStripMenuItem51
+			// 
+			this.toolStripMenuItem51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem51.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem67,
+            this.toolStripMenuItem52,
+            this.toolStripMenuItem53,
+            this.toolStripMenuItem68,
+            this.toolStripMenuItem54});
+			this.toolStripMenuItem51.Enabled = false;
+			this.toolStripMenuItem51.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem51.Name = "toolStripMenuItem51";
+			this.toolStripMenuItem51.Size = new System.Drawing.Size(203, 24);
+			this.toolStripMenuItem51.Text = "Сервопривод 1";
+			// 
+			// toolStripMenuItem52
+			// 
+			this.toolStripMenuItem52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem52.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem52.Name = "toolStripMenuItem52";
+			this.toolStripMenuItem52.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem52.Text = "90°";
+			// 
+			// toolStripMenuItem53
+			// 
+			this.toolStripMenuItem53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem53.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem53.Name = "toolStripMenuItem53";
+			this.toolStripMenuItem53.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem53.Text = "180°";
+			// 
+			// toolStripMenuItem54
+			// 
+			this.toolStripMenuItem54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem54.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem54.Name = "toolStripMenuItem54";
+			this.toolStripMenuItem54.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem54.Text = "360°";
+			// 
+			// toolStripMenuItem55
+			// 
+			this.toolStripMenuItem55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem55.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem69,
+            this.toolStripMenuItem70,
+            this.toolStripMenuItem71,
+            this.toolStripMenuItem72,
+            this.toolStripMenuItem73});
+			this.toolStripMenuItem55.Enabled = false;
+			this.toolStripMenuItem55.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem55.Name = "toolStripMenuItem55";
+			this.toolStripMenuItem55.Size = new System.Drawing.Size(203, 24);
+			this.toolStripMenuItem55.Text = "Сервопривод 2";
+			// 
+			// toolStripMenuItem59
+			// 
+			this.toolStripMenuItem59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem59.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem56,
+            this.toolStripMenuItem57,
+            this.toolStripMenuItem58,
+            this.toolStripMenuItem74,
+            this.toolStripMenuItem75});
+			this.toolStripMenuItem59.Enabled = false;
+			this.toolStripMenuItem59.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem59.Name = "toolStripMenuItem59";
+			this.toolStripMenuItem59.Size = new System.Drawing.Size(203, 24);
+			this.toolStripMenuItem59.Text = "Сервопривод 3";
+			// 
+			// toolStripMenuItem63
+			// 
+			this.toolStripMenuItem63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem63.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem60,
+            this.toolStripMenuItem61,
+            this.toolStripMenuItem62,
+            this.toolStripMenuItem65,
+            this.toolStripMenuItem66});
+			this.toolStripMenuItem63.Enabled = false;
+			this.toolStripMenuItem63.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem63.Name = "toolStripMenuItem63";
+			this.toolStripMenuItem63.Size = new System.Drawing.Size(203, 24);
+			this.toolStripMenuItem63.Text = "Сервопривод 4";
+			// 
+			// toolStripMenuItem67
+			// 
+			this.toolStripMenuItem67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem67.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem67.Name = "toolStripMenuItem67";
+			this.toolStripMenuItem67.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem67.Text = "0°";
+			// 
+			// toolStripMenuItem68
+			// 
+			this.toolStripMenuItem68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem68.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem68.Name = "toolStripMenuItem68";
+			this.toolStripMenuItem68.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem68.Text = "270°";
+			// 
+			// toolStripMenuItem69
+			// 
+			this.toolStripMenuItem69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem69.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem69.Name = "toolStripMenuItem69";
+			this.toolStripMenuItem69.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem69.Text = "0°";
+			// 
+			// toolStripMenuItem70
+			// 
+			this.toolStripMenuItem70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem70.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem70.Name = "toolStripMenuItem70";
+			this.toolStripMenuItem70.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem70.Text = "90°";
+			// 
+			// toolStripMenuItem71
+			// 
+			this.toolStripMenuItem71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem71.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem71.Name = "toolStripMenuItem71";
+			this.toolStripMenuItem71.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem71.Text = "180°";
+			// 
+			// toolStripMenuItem72
+			// 
+			this.toolStripMenuItem72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem72.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem72.Name = "toolStripMenuItem72";
+			this.toolStripMenuItem72.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem72.Text = "270°";
+			// 
+			// toolStripMenuItem73
+			// 
+			this.toolStripMenuItem73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem73.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem73.Name = "toolStripMenuItem73";
+			this.toolStripMenuItem73.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem73.Text = "360°";
+			// 
+			// toolStripMenuItem56
+			// 
+			this.toolStripMenuItem56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem56.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem56.Name = "toolStripMenuItem56";
+			this.toolStripMenuItem56.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem56.Text = "0°";
+			// 
+			// toolStripMenuItem57
+			// 
+			this.toolStripMenuItem57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem57.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem57.Name = "toolStripMenuItem57";
+			this.toolStripMenuItem57.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem57.Text = "90°";
+			// 
+			// toolStripMenuItem58
+			// 
+			this.toolStripMenuItem58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem58.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem58.Name = "toolStripMenuItem58";
+			this.toolStripMenuItem58.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem58.Text = "180°";
+			// 
+			// toolStripMenuItem74
+			// 
+			this.toolStripMenuItem74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem74.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem74.Name = "toolStripMenuItem74";
+			this.toolStripMenuItem74.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem74.Text = "270°";
+			// 
+			// toolStripMenuItem75
+			// 
+			this.toolStripMenuItem75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem75.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem75.Name = "toolStripMenuItem75";
+			this.toolStripMenuItem75.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem75.Text = "360°";
+			// 
+			// toolStripMenuItem60
+			// 
+			this.toolStripMenuItem60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem60.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem60.Name = "toolStripMenuItem60";
+			this.toolStripMenuItem60.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem60.Text = "0°";
+			// 
+			// toolStripMenuItem61
+			// 
+			this.toolStripMenuItem61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem61.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem61.Name = "toolStripMenuItem61";
+			this.toolStripMenuItem61.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem61.Text = "90°";
+			// 
+			// toolStripMenuItem62
+			// 
+			this.toolStripMenuItem62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem62.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem62.Name = "toolStripMenuItem62";
+			this.toolStripMenuItem62.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem62.Text = "180°";
+			// 
+			// toolStripMenuItem65
+			// 
+			this.toolStripMenuItem65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem65.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem65.Name = "toolStripMenuItem65";
+			this.toolStripMenuItem65.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem65.Text = "270°";
+			// 
+			// toolStripMenuItem66
+			// 
+			this.toolStripMenuItem66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem66.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem66.Name = "toolStripMenuItem66";
+			this.toolStripMenuItem66.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem66.Text = "360°";
+			// 
+			// toolStripDropDownButton7
+			// 
+			this.toolStripDropDownButton7.BackColor = System.Drawing.Color.Transparent;
+			this.toolStripDropDownButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.toolStripDropDownButton7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem84,
+            this.toolStripMenuItem87,
+            this.toolStripMenuItem90,
+            this.toolStripMenuItem93,
+            this.toolStripMenuItem81,
+            this.toolStripMenuItem77,
+            this.toolStripMenuItem64});
+			this.toolStripDropDownButton7.Enabled = false;
+			this.toolStripDropDownButton7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.toolStripDropDownButton7.ForeColor = System.Drawing.Color.Silver;
+			this.toolStripDropDownButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton7.Image")));
+			this.toolStripDropDownButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripDropDownButton7.Name = "toolStripDropDownButton7";
+			this.toolStripDropDownButton7.ShowDropDownArrow = false;
+			this.toolStripDropDownButton7.Size = new System.Drawing.Size(121, 23);
+			this.toolStripDropDownButton7.Text = "Выключатель";
+			this.toolStripDropDownButton7.ToolTipText = "Пищалка";
+			this.toolStripDropDownButton7.Visible = false;
+			// 
+			// toolStripMenuItem64
+			// 
+			this.toolStripMenuItem64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem64.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem76,
+            this.toolStripMenuItem78});
+			this.toolStripMenuItem64.Enabled = false;
+			this.toolStripMenuItem64.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem64.Name = "toolStripMenuItem64";
+			this.toolStripMenuItem64.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem64.Text = "Реле 7";
+			// 
+			// toolStripMenuItem76
+			// 
+			this.toolStripMenuItem76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem76.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem76.Name = "toolStripMenuItem76";
+			this.toolStripMenuItem76.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem76.Text = "Включить";
+			// 
+			// toolStripMenuItem78
+			// 
+			this.toolStripMenuItem78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem78.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem78.Name = "toolStripMenuItem78";
+			this.toolStripMenuItem78.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem78.Text = "Выключить";
+			// 
+			// toolStripMenuItem77
+			// 
+			this.toolStripMenuItem77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem77.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem79,
+            this.toolStripMenuItem80});
+			this.toolStripMenuItem77.Enabled = false;
+			this.toolStripMenuItem77.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem77.Name = "toolStripMenuItem77";
+			this.toolStripMenuItem77.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem77.Text = "Реле 6";
+			// 
+			// toolStripMenuItem79
+			// 
+			this.toolStripMenuItem79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem79.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem79.Name = "toolStripMenuItem79";
+			this.toolStripMenuItem79.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem79.Text = "Включить";
+			// 
+			// toolStripMenuItem80
+			// 
+			this.toolStripMenuItem80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem80.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem80.Name = "toolStripMenuItem80";
+			this.toolStripMenuItem80.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem80.Text = "Выключить";
+			// 
+			// toolStripMenuItem81
+			// 
+			this.toolStripMenuItem81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem81.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem82,
+            this.toolStripMenuItem83});
+			this.toolStripMenuItem81.Enabled = false;
+			this.toolStripMenuItem81.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem81.Name = "toolStripMenuItem81";
+			this.toolStripMenuItem81.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem81.Text = "Реле 5";
+			// 
+			// toolStripMenuItem82
+			// 
+			this.toolStripMenuItem82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem82.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem82.Name = "toolStripMenuItem82";
+			this.toolStripMenuItem82.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem82.Text = "Включить";
+			// 
+			// toolStripMenuItem83
+			// 
+			this.toolStripMenuItem83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem83.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem83.Name = "toolStripMenuItem83";
+			this.toolStripMenuItem83.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem83.Text = "Выключить";
+			// 
+			// toolStripMenuItem84
+			// 
+			this.toolStripMenuItem84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem84.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem85,
+            this.toolStripMenuItem86});
+			this.toolStripMenuItem84.Enabled = false;
+			this.toolStripMenuItem84.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem84.Name = "toolStripMenuItem84";
+			this.toolStripMenuItem84.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem84.Text = "Реле 1";
+			// 
+			// toolStripMenuItem85
+			// 
+			this.toolStripMenuItem85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem85.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem85.Name = "toolStripMenuItem85";
+			this.toolStripMenuItem85.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem85.Text = "Включить";
+			// 
+			// toolStripMenuItem86
+			// 
+			this.toolStripMenuItem86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem86.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem86.Name = "toolStripMenuItem86";
+			this.toolStripMenuItem86.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem86.Text = "Выключить";
+			// 
+			// toolStripMenuItem87
+			// 
+			this.toolStripMenuItem87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem87.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem88,
+            this.toolStripMenuItem89});
+			this.toolStripMenuItem87.Enabled = false;
+			this.toolStripMenuItem87.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem87.Name = "toolStripMenuItem87";
+			this.toolStripMenuItem87.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem87.Text = "Реле 2";
+			// 
+			// toolStripMenuItem88
+			// 
+			this.toolStripMenuItem88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem88.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem88.Name = "toolStripMenuItem88";
+			this.toolStripMenuItem88.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem88.Text = "Включить";
+			// 
+			// toolStripMenuItem89
+			// 
+			this.toolStripMenuItem89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem89.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem89.Name = "toolStripMenuItem89";
+			this.toolStripMenuItem89.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem89.Text = "Выключить";
+			// 
+			// toolStripMenuItem90
+			// 
+			this.toolStripMenuItem90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem90.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem91,
+            this.toolStripMenuItem92});
+			this.toolStripMenuItem90.Enabled = false;
+			this.toolStripMenuItem90.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem90.Name = "toolStripMenuItem90";
+			this.toolStripMenuItem90.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem90.Text = "Реле 3";
+			// 
+			// toolStripMenuItem91
+			// 
+			this.toolStripMenuItem91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem91.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem91.Name = "toolStripMenuItem91";
+			this.toolStripMenuItem91.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem91.Text = "Включить";
+			// 
+			// toolStripMenuItem92
+			// 
+			this.toolStripMenuItem92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem92.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem92.Name = "toolStripMenuItem92";
+			this.toolStripMenuItem92.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem92.Text = "Выключить";
+			// 
+			// toolStripMenuItem93
+			// 
+			this.toolStripMenuItem93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem93.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem94,
+            this.toolStripMenuItem95});
+			this.toolStripMenuItem93.Enabled = false;
+			this.toolStripMenuItem93.ForeColor = System.Drawing.Color.WhiteSmoke;
+			this.toolStripMenuItem93.Name = "toolStripMenuItem93";
+			this.toolStripMenuItem93.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem93.Text = "Реле 4";
+			// 
+			// toolStripMenuItem94
+			// 
+			this.toolStripMenuItem94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem94.ForeColor = System.Drawing.Color.Lime;
+			this.toolStripMenuItem94.Name = "toolStripMenuItem94";
+			this.toolStripMenuItem94.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem94.Text = "Включить";
+			// 
+			// toolStripMenuItem95
+			// 
+			this.toolStripMenuItem95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.toolStripMenuItem95.ForeColor = System.Drawing.Color.Red;
+			this.toolStripMenuItem95.Name = "toolStripMenuItem95";
+			this.toolStripMenuItem95.Size = new System.Drawing.Size(180, 24);
+			this.toolStripMenuItem95.Text = "Выключить";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1440,6 +2344,7 @@ namespace SmartHomeController
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(812, 437);
+			this.Controls.Add(this.groupBox5);
 			this.Controls.Add(this.label15);
 			this.Controls.Add(this.groupBox4);
 			this.Controls.Add(this.groupBox3);
@@ -1453,6 +2358,7 @@ namespace SmartHomeController
 			this.Name = "MainForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Управление системой умного дома";
+			this.Activated += new System.EventHandler(this.MainForm_Activated);
 			this.Deactivate += new System.EventHandler(this.MainForm_Deactivate);
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
 			this.Load += new System.EventHandler(this.MainForm_Load);
@@ -1471,6 +2377,8 @@ namespace SmartHomeController
 			this.groupBox4.ResumeLayout(false);
 			this.groupBox4.PerformLayout();
 			this.contextMenuStrip1.ResumeLayout(false);
+			this.groupBox5.ResumeLayout(false);
+			this.groupBox5.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1586,6 +2494,75 @@ namespace SmartHomeController
 		private ToolStripMenuItem toolStripMenuItem49;
 		private ToolStripMenuItem toolStripMenuItem50;
 		private Timer timer2;
+		private GroupBox groupBox5;
+		private Label label22;
+		private Label label20;
+		private Label label21;
+		private Label label16;
+		private Label label17;
+		private Label label18;
+		private Label label19;
+		private Guna.UI2.WinForms.Guna2Button guna2Button14;
+		private Guna.UI2.WinForms.Guna2Button guna2Button15;
+		private Guna.UI2.WinForms.Guna2Button guna2Button12;
+		private Guna.UI2.WinForms.Guna2Button guna2Button13;
+		private Guna.UI2.WinForms.Guna2Button guna2Button10;
+		private Guna.UI2.WinForms.Guna2Button guna2Button11;
+		private Guna.UI2.WinForms.Guna2Button guna2Button8;
+		private Guna.UI2.WinForms.Guna2Button guna2Button9;
+		private Guna.UI2.WinForms.Guna2Button guna2Button6;
+		private Guna.UI2.WinForms.Guna2Button guna2Button7;
+		private Guna.UI2.WinForms.Guna2Button guna2Button4;
+		private Guna.UI2.WinForms.Guna2Button guna2Button5;
+		private Guna.UI2.WinForms.Guna2Button guna2Button3;
+		private Guna.UI2.WinForms.Guna2Button guna2Button2;
+		private ToolStripDropDownButton toolStripDropDownButton6;
+		private ToolStripMenuItem toolStripMenuItem51;
+		private ToolStripMenuItem toolStripMenuItem67;
+		private ToolStripMenuItem toolStripMenuItem52;
+		private ToolStripMenuItem toolStripMenuItem53;
+		private ToolStripMenuItem toolStripMenuItem68;
+		private ToolStripMenuItem toolStripMenuItem54;
+		private ToolStripMenuItem toolStripMenuItem55;
+		private ToolStripMenuItem toolStripMenuItem59;
+		private ToolStripMenuItem toolStripMenuItem63;
+		private ToolStripMenuItem toolStripMenuItem69;
+		private ToolStripMenuItem toolStripMenuItem70;
+		private ToolStripMenuItem toolStripMenuItem71;
+		private ToolStripMenuItem toolStripMenuItem72;
+		private ToolStripMenuItem toolStripMenuItem73;
+		private ToolStripMenuItem toolStripMenuItem56;
+		private ToolStripMenuItem toolStripMenuItem57;
+		private ToolStripMenuItem toolStripMenuItem58;
+		private ToolStripMenuItem toolStripMenuItem74;
+		private ToolStripMenuItem toolStripMenuItem75;
+		private ToolStripMenuItem toolStripMenuItem60;
+		private ToolStripMenuItem toolStripMenuItem61;
+		private ToolStripMenuItem toolStripMenuItem62;
+		private ToolStripMenuItem toolStripMenuItem65;
+		private ToolStripMenuItem toolStripMenuItem66;
+		private ToolStripDropDownButton toolStripDropDownButton7;
+		private ToolStripMenuItem toolStripMenuItem64;
+		private ToolStripMenuItem toolStripMenuItem84;
+		private ToolStripMenuItem toolStripMenuItem85;
+		private ToolStripMenuItem toolStripMenuItem86;
+		private ToolStripMenuItem toolStripMenuItem87;
+		private ToolStripMenuItem toolStripMenuItem88;
+		private ToolStripMenuItem toolStripMenuItem89;
+		private ToolStripMenuItem toolStripMenuItem90;
+		private ToolStripMenuItem toolStripMenuItem91;
+		private ToolStripMenuItem toolStripMenuItem92;
+		private ToolStripMenuItem toolStripMenuItem93;
+		private ToolStripMenuItem toolStripMenuItem94;
+		private ToolStripMenuItem toolStripMenuItem95;
+		private ToolStripMenuItem toolStripMenuItem81;
+		private ToolStripMenuItem toolStripMenuItem82;
+		private ToolStripMenuItem toolStripMenuItem83;
+		private ToolStripMenuItem toolStripMenuItem77;
+		private ToolStripMenuItem toolStripMenuItem79;
+		private ToolStripMenuItem toolStripMenuItem80;
+		private ToolStripMenuItem toolStripMenuItem76;
+		private ToolStripMenuItem toolStripMenuItem78;
 	}
 }
 
