@@ -32,6 +32,6 @@ A small program for controlling a homemade smart home system using microcontroll
 - [ ] Add support for multiple languages.
 - [ ] Add support for multiple (possibly even custom) themes.
 - [ ] Increase the number of supported devices for control; Adding sensors for reading readings.
-- [ ] Add support for ESP microcontrollers and Wi-Fi control; add an emergency power battery and display its charge.
+- [ ] Add an emergency power battery and display its charge.
 - [ ] Fix bugs.
 - [ ] Optimize code.
