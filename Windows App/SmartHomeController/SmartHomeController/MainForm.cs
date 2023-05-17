@@ -6,10 +6,12 @@ using System.Reflection;
 using System.Windows.Forms;
 using SmartHomeController.Properties;
 using Microsoft.Win32;
+using MaterialSkin.Controls;
+using MaterialSkin;
 
 namespace SmartHomeController
 {
-	public partial class MainForm : Form
+	public partial class MainForm : MaterialForm
     {
         private int baudRate = 115200; // Скорость передачи при запуске программы.
 
@@ -21,6 +23,12 @@ namespace SmartHomeController
         public MainForm()
         {
             InitializeComponent();
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+
             RegistryKey currentUserKey = Registry.CurrentUser.OpenSubKey(regPath1);
             if (currentUserKey != null)
             {
@@ -43,11 +51,11 @@ namespace SmartHomeController
 
             if (Properties.Settings.Default.lang == "RUS")
             {
-                label15.Text = ("Версия " + AssemblyVersion);
+                label15.Text = ("Версия Dev " + AssemblyVersion);
             }
             else if (Properties.Settings.Default.lang == "ENG")
             {
-                label15.Text = ("Version " + AssemblyVersion);
+                label15.Text = ("Version Dev " + AssemblyVersion);
             }
             settings_load();
         }
@@ -78,39 +86,39 @@ namespace SmartHomeController
                     MessageBox.Show("ERROR: Any COM PORT not found!"); // Выводим сообщение об ошибке.
                 }
             }
-            toolStripComboBox1.Items.Clear(); // Очищаем все COM-порты.
+			materialComboBox5.Items.Clear(); // Очищаем все COM-порты.
             foreach (var portName in portnames)
             {
-                toolStripComboBox1.Items.Add(portName); // Добавляем доступные COM-порты в список.
+				materialComboBox5.Items.Add(portName); // Добавляем доступные COM-порты в список.
                 //Console.WriteLine(portnames.Length); // Выводим COM-порты в консоль [DEBUG ONLY].
-                if (portnames[0] != null) toolStripComboBox1.SelectedItem = portnames[0];
+                if (portnames[0] != null) materialComboBox5.SelectedItem = portnames[0];
             }
 
-            baudRate = Convert.ToInt32(toolStripComboBox2.SelectedItem); // Устанавливаем скорость передачи.
-            toolStripComboBox2.SelectedIndex = 1;
+            baudRate = Convert.ToInt32(materialComboBox6.SelectedItem); // Устанавливаем скорость передачи.
+			materialComboBox6.SelectedIndex = 1;
         }
 
         private void connectToArduino() // Connect function
         {
             isConnected = true; // Переменную подключения ставим равной true.
-            baudRate = Convert.ToInt32(toolStripComboBox2.SelectedItem); // Устанавливаем скорость передачи.
+            baudRate = Convert.ToInt32(materialComboBox6.SelectedItem); // Устанавливаем скорость передачи.
             serialPort1.BaudRate = baudRate; // Устанавливаем скорость передачи.
             serialPort1.PortName = selectedPort; // Устанавливаем выбранный COM-порт.
             serialPort1.Open(); // Подключаемся к выбранному COM-порту.
             if (Properties.Settings.Default.lang == "RUS")
             {
-                отключениеОтКонтроллераToolStripMenuItem.Text =
+				connect_materialButton3.Text =
                 "Отключение от контроллера"; // Надпись на кнопке подключения ставим: Отключиться.
             }
             else if (Properties.Settings.Default.lang == "ENG")
             {
-                отключениеОтКонтроллераToolStripMenuItem.Text =
+				connect_materialButton3.Text =
                 "Disconnect from controller"; // Надпись на кнопке подключения ставим: Disconnect.
             }
-            
-            отключениеОтКонтроллераToolStripMenuItem.Font = new Font("Century Gothic", 10);
-            toolStripComboBox1.Enabled = false;
-            toolStripComboBox2.Enabled = false;
+
+			connect_materialButton3.Font = new Font("Century Gothic", 10);
+			materialComboBox5.Enabled = false;
+			materialComboBox6.Enabled = false;
             if (Properties.Settings.Default.lang == "RUS")
             {
                 toolStripStatusLabel1.Text = ("Подключён к " + selectedPort + " со скоростью " + baudRate + " бод");
@@ -123,9 +131,6 @@ namespace SmartHomeController
 
             settings_load();
 
-            guna2NumericUpDown1.ForeColor = Color.White;
-            guna2NumericUpDown2.ForeColor = Color.White;
-
             //serialPort1.Write("0,0"); // Бережённого бог бережёт :>
         }
 
@@ -136,18 +141,18 @@ namespace SmartHomeController
 
             if (Properties.Settings.Default.lang == "RUS")
             {
-                отключениеОтКонтроллераToolStripMenuItem.Text =
+				connect_materialButton3.Text =
                 "Подключение к контроллеру"; // Надпись на кнопке подключения ставим Подключиться.
             }
             else if (Properties.Settings.Default.lang == "ENG")
             {
-                отключениеОтКонтроллераToolStripMenuItem.Text =
+				connect_materialButton3.Text =
                 "Connecto to controller"; // Надпись на кнопке подключения ставим Connect.
             }
-            
-            отключениеОтКонтроллераToolStripMenuItem.Font = new Font("Century Gothic", 10);
-            toolStripComboBox1.Enabled = true;
-            toolStripComboBox2.Enabled = true;
+
+			connect_materialButton3.Font = new Font("Century Gothic", 10);
+			materialComboBox5.Enabled = true;
+			materialComboBox6.Enabled = true;
             if (Properties.Settings.Default.lang == "RUS")
             {
                 toolStripStatusLabel1.Text = ("Отключён");
@@ -171,8 +176,8 @@ namespace SmartHomeController
 
             label1.Enabled = false;
             label1.Visible = false;
-            guna2TrackBar1.Enabled = false;
-            guna2TrackBar1.Visible = false;
+			materialSlider1.Enabled = false;
+			materialSlider1.Visible = false;
 
             groupBox2.Enabled = false;
             groupBox2.Visible = false;
@@ -219,12 +224,12 @@ namespace SmartHomeController
         // Light
         private void guna2TrackBar1_Scroll(object sender, ScrollEventArgs e)
         {
-            serialPort1.Write("2," + guna2TrackBar1.Value + ";");
+            serialPort1.Write("2," + materialSlider1.Value + ";");
         }
 
 
         // Buzzer
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void materialButton1_Click(object sender, EventArgs e)
         {
             serialPort1.Write("1," + guna2NumericUpDown1.Value + "," + guna2NumericUpDown2.Value + ";");
         }
@@ -338,12 +343,12 @@ namespace SmartHomeController
 
         private void toolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            selectedPort = Convert.ToString(toolStripComboBox1.SelectedItem); // Ставим значние переменной selectedPort равной выбранному COM-порту.
+            selectedPort = Convert.ToString(materialComboBox5.SelectedItem); // Ставим значние переменной selectedPort равной выбранному COM-порту.
         }
 
         private void toolStripComboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            baudRate = Convert.ToInt32(toolStripComboBox2.SelectedItem); // Устанавливаем скорость передачи.
+            baudRate = Convert.ToInt32(materialComboBox6.SelectedItem); // Устанавливаем скорость передачи.
         }
 
         private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
@@ -365,20 +370,20 @@ namespace SmartHomeController
                     MessageBox.Show("ERROR: Any COM PORT not found!"); // Выводим сообщение об ошибке.
                 }
             }
-                    toolStripComboBox1.Items.Clear(); // Очищаем все COM-порты.
+			materialComboBox5.Items.Clear(); // Очищаем все COM-порты.
             foreach (var portName in portnames)
-                toolStripComboBox1.Items.Add(portName); // Добавляем доступные COM-порты в список.
-            toolStripComboBox1.SelectedItem = selectedPort;
+				materialComboBox5.Items.Add(portName); // Добавляем доступные COM-порты в список.
+			materialComboBox5.SelectedItem = selectedPort;
         }
 
 		private void toolStripMenuItem3_Click(object sender, EventArgs e)
 		{
-            guna2TrackBar1.Value = 1023;
+			materialSlider1.Value = 1023;
         }
 
 		private void toolStripMenuItem4_Click(object sender, EventArgs e)
 		{
-            guna2TrackBar1.Value = 0;
+			materialSlider1.Value = 0;
         }
 
 		private void toolStripMenuItem21_Click(object sender, EventArgs e)
@@ -428,10 +433,12 @@ namespace SmartHomeController
 
 		private void toolStripMenuItem22_Click(object sender, EventArgs e)
 		{
+            HelpForm help = new HelpForm();
+            help.ShowDialog();
 
-		}
+        }
 
-		private void toolStripMenuItem23_Click(object sender, EventArgs e)
+        private void toolStripMenuItem23_Click(object sender, EventArgs e)
 		{
             serialPort1.Write("1," + 1000 + "," + 100 + ";");
         }
@@ -521,12 +528,6 @@ namespace SmartHomeController
             //WindowState = FormWindowState.Normal; // Разворачиваем окно
         }
 
-        private void настройкиToolStripMenuItem_Click(object sender, EventArgs e)
-		{
-            var settingsForm = new Settings();
-            settingsForm.ShowDialog();
-        }
-
 		private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
 		{
             Properties.Settings.Default.Save();
@@ -539,8 +540,8 @@ namespace SmartHomeController
 
                 label1.Visible = Properties.Settings.Default.light1;
                 label1.Enabled = Properties.Settings.Default.light1;
-                guna2TrackBar1.Visible = Properties.Settings.Default.light1;
-                guna2TrackBar1.Enabled = Properties.Settings.Default.light1;
+				materialSlider1.Visible = Properties.Settings.Default.light1;
+				materialSlider1.Enabled = Properties.Settings.Default.light1;
                 toolStripMenuItem2.Visible = Properties.Settings.Default.light1;
                 toolStripMenuItem2.Enabled = Properties.Settings.Default.light1;
                 label2.Visible = Properties.Settings.Default.light2;
@@ -739,14 +740,14 @@ namespace SmartHomeController
             if (Properties.Settings.Default.lang == "RUS")
             {
                 toolStripDropDownButton1.Text = "Действия";
-                параметрыПодключенияToolStripMenuItem.Text = "Параметрый подключения";
-                отключениеОтКонтроллераToolStripMenuItem.Text = "Подключение к контроллеру";
+				materialLabel2.Text = "Параметры подключения";
+				connect_materialButton3.Text = "Подключение к контроллеру";
             }
             else if (Properties.Settings.Default.lang == "ENG")
             {
                 toolStripDropDownButton1.Text = "Actions";
-                параметрыПодключенияToolStripMenuItem.Text = "Connections options";
-                отключениеОтКонтроллераToolStripMenuItem.Text = "Connect to controller";
+				materialLabel2.Text = "Connection options";
+				connect_materialButton3.Text = "Connect to controller";
             }
         }
         private void timer2_Tick(object sender, EventArgs e)
@@ -757,5 +758,172 @@ namespace SmartHomeController
 		{
             settings_load();
         }
+
+		private void materialButton2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialTabControl1_SelectedIndexChanged(object sender, EventArgs e)
+		{
+            if (materialTabControl1.SelectedIndex == 1) {
+                if (Properties.Settings.Default.lang == "RUS")
+                {
+                    materialComboBox1.SelectedIndex = 0;
+                }
+                else if (Properties.Settings.Default.lang == "ENG")
+                {
+                    materialComboBox1.SelectedIndex = 1;
+                }
+
+                if (Properties.Settings.Default.theme == true)
+                {
+                    materialComboBox2.SelectedIndex = 1;
+                }
+                else if (Properties.Settings.Default.theme == false)
+                {
+                    materialComboBox2.SelectedIndex = 0;
+                }
+            }
+		}
+
+		/*
+		// Text-боксы
+
+		textBox1.Text = Properties.Settings.Default.name_light1;
+		textBox2.Text = Properties.Settings.Default.name_light2;
+		textBox4.Text = Properties.Settings.Default.name_light3;
+		textBox3.Text = Properties.Settings.Default.name_light4;
+
+		textBox9.Text = Properties.Settings.Default.name_buzzer;
+
+		textBox8.Text = Properties.Settings.Default.name_motor1;
+		textBox7.Text = Properties.Settings.Default.name_motor2;
+		textBox6.Text = Properties.Settings.Default.name_motor3;
+		textBox5.Text = Properties.Settings.Default.name_motor4;
+
+		textBox13.Text = Properties.Settings.Default.name_servo1;
+		textBox12.Text = Properties.Settings.Default.name_servo2;
+		textBox11.Text = Properties.Settings.Default.name_servo3;
+		textBox10.Text = Properties.Settings.Default.name_servo4;
+
+		// Label'ы
+
+		label4.Text = Properties.Settings.Default.name_light1;
+		label3.Text = Properties.Settings.Default.name_light2;
+		label6.Text = Properties.Settings.Default.name_light3;
+		label5.Text = Properties.Settings.Default.name_light4;
+
+		label11.Text = Properties.Settings.Default.name_buzzer;
+
+		label10.Text = Properties.Settings.Default.name_motor1;
+		label9.Text = Properties.Settings.Default.name_motor2;
+		label8.Text = Properties.Settings.Default.name_motor3;
+		label7.Text = Properties.Settings.Default.name_motor4;
+
+		label15.Text = Properties.Settings.Default.name_servo1;
+		label14.Text = Properties.Settings.Default.name_servo2;
+		label13.Text = Properties.Settings.Default.name_servo3;
+		label12.Text = Properties.Settings.Default.name_servo4;
+
+		// Check-боксы
+
+		checkBox1.Checked = Properties.Settings.Default.light1;
+		checkBox2.Checked = Properties.Settings.Default.light2;
+		checkBox4.Checked = Properties.Settings.Default.light3;
+		checkBox3.Checked = Properties.Settings.Default.light4;
+
+		checkBox9.Checked = Properties.Settings.Default.buzzer;
+
+		checkBox8.Checked = Properties.Settings.Default.motor1;
+		checkBox7.Checked = Properties.Settings.Default.motor2;
+		checkBox6.Checked = Properties.Settings.Default.motor3;
+		checkBox5.Checked = Properties.Settings.Default.motor4;
+
+		checkBox13.Checked = Properties.Settings.Default.servo1;
+		checkBox12.Checked = Properties.Settings.Default.servo2;
+		checkBox11.Checked = Properties.Settings.Default.servo3;
+		checkBox10.Checked = Properties.Settings.Default.servo4;
+	}
+	private void settings_save()
+	{
+		if (comboBox1.SelectedIndex == 0)
+		{
+			Properties.Settings.Default.lang = "RUS";
+		}
+		else if (comboBox1.SelectedIndex == 1)
+		{
+			Properties.Settings.Default.lang = "ENG";
+		}
+		if (comboBox2.SelectedIndex == 0)
+		{
+			Properties.Settings.Default.theme = false;
+		}
+		else if (comboBox2.SelectedIndex == 1)
+		{
+			Properties.Settings.Default.theme = true;
+		}
+
+		// Text-боксы
+
+		Properties.Settings.Default.name_light1 = textBox1.Text;
+		Properties.Settings.Default.name_light2 = textBox2.Text;
+		Properties.Settings.Default.name_light3 = textBox4.Text;
+		Properties.Settings.Default.name_light4 = textBox3.Text;
+
+		Properties.Settings.Default.name_buzzer = textBox9.Text;
+
+		Properties.Settings.Default.name_motor1 = textBox8.Text;
+		Properties.Settings.Default.name_motor2 = textBox7.Text;
+		Properties.Settings.Default.name_motor3 = textBox6.Text;
+		Properties.Settings.Default.name_motor4 = textBox5.Text;
+
+		Properties.Settings.Default.name_servo1 = textBox13.Text;
+		Properties.Settings.Default.name_servo2 = textBox12.Text;
+		Properties.Settings.Default.name_servo3 = textBox11.Text;
+		Properties.Settings.Default.name_servo4 = textBox10.Text;
+
+		// Check-боксы
+
+		Properties.Settings.Default.light1 = checkBox1.Checked;
+		Properties.Settings.Default.light2 = checkBox2.Checked;
+		Properties.Settings.Default.light3 = checkBox4.Checked;
+		Properties.Settings.Default.light4 = checkBox3.Checked;
+
+		Properties.Settings.Default.buzzer = checkBox9.Checked;
+
+		Properties.Settings.Default.motor1 = checkBox8.Checked;
+		Properties.Settings.Default.motor2 = checkBox7.Checked;
+		Properties.Settings.Default.motor3 = checkBox6.Checked;
+		Properties.Settings.Default.motor4 = checkBox5.Checked;
+
+		Properties.Settings.Default.servo1 = checkBox13.Checked;
+		Properties.Settings.Default.servo2 = checkBox12.Checked;
+		Properties.Settings.Default.servo3 = checkBox11.Checked;
+		Properties.Settings.Default.servo4 = checkBox10.Checked;
+
+		Properties.Settings.Default.Save();
+	}
+
+	private void button1_Click(object sender, EventArgs e)
+	{
+		settings_save();
+	}
+
+	private void button2_Click(object sender, EventArgs e)
+	{
+		settings_save();
+		this.Close();
+	}
+
+	private void button4_Click(object sender, EventArgs e)
+	{
+		settings_save();
+	}
+
+	private void button3_Click(object sender, EventArgs e)
+	{
+		settings_save();
+		this.Close();*/
 	}
 }

@@ -86,9 +86,6 @@
     <Setting Name="servo4" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="switch1" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
-    </Setting>
     <Setting Name="switch2" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
@@ -127,6 +124,9 @@
     </Setting>
     <Setting Name="name_switch7" Type="System.String" Scope="User">
       <Value Profile="(Default)">Реле 7</Value>
+    </Setting>
+    <Setting Name="switch1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

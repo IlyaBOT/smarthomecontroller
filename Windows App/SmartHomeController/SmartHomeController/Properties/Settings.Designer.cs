@@ -361,18 +361,6 @@ namespace SmartHomeController.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool switch1 {
-            get {
-                return ((bool)(this["switch1"]));
-            }
-            set {
-                this["switch1"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool switch2 {
             get {
@@ -524,6 +512,18 @@ namespace SmartHomeController.Properties {
             }
             set {
                 this["name_switch7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool switch1 {
+            get {
+                return ((bool)(this["switch1"]));
+            }
+            set {
+                this["switch1"] = value;
             }
         }
     }

@@ -58,11 +58,15 @@
     </StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2, Version=2.0.3.3, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.3\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -79,6 +83,12 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,14 +103,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Settings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Settings.Designer.cs">
-      <DependentUpon>Settings.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Settings.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Logo.resx">
       <DependentUpon>Logo.cs</DependentUpon>
@@ -115,9 +123,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Settings.resx">
-      <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
@@ -162,14 +167,6 @@
     <None Include="Resources\3Oz4xi1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="AxWMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="Microsoft.Vbe.Interop.Forms">
       <Guid>{0D452EE1-E08F-101A-852E-02608C4D0BB4}</Guid>
       <VersionMajor>2</VersionMajor>
@@ -197,15 +194,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="WMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SmartHomeController.png" />
@@ -216,6 +204,39 @@
   <ItemGroup>
     <None Include="Resources\SmartHomeController.ico" />
     <None Include="Resources\SmartHomeController_white.ico" />
+    <Content Include="Resources\help\About_devices.html" />
+    <Content Include="Resources\help\About_devices_ru.html" />
+    <Content Include="Resources\help\ChangeLang.html" />
+    <Content Include="Resources\help\First_start.html" />
+    <Content Include="Resources\help\First_start_1.html" />
+    <Content Include="Resources\help\First_start_1_ru.html" />
+    <Content Include="Resources\help\First_start_2.html" />
+    <Content Include="Resources\help\First_start_2_ru.html" />
+    <Content Include="Resources\help\First_start_3.html" />
+    <Content Include="Resources\help\First_start_3_ru.html" />
+    <Content Include="Resources\help\First_start_ru.html" />
+    <Content Include="Resources\help\images\8vncmib283.jpg" />
+    <Content Include="Resources\help\images\8vncmib283_ru.jpg" />
+    <Content Include="Resources\help\images\8vncmib284.jpg" />
+    <Content Include="Resources\help\images\8vncmib284_ru.jpg" />
+    <Content Include="Resources\help\images\arrow_right_black.png" />
+    <Content Include="Resources\help\images\carousel_back.png" />
+    <Content Include="Resources\help\images\carousel_next.png" />
+    <Content Include="Resources\help\images\img0137.png" />
+    <Content Include="Resources\help\images\img0137_over.png" />
+    <Content Include="Resources\help\images\img0138.png" />
+    <Content Include="Resources\help\images\img0138_over.png" />
+    <Content Include="Resources\help\images\img0139.png" />
+    <Content Include="Resources\help\images\img0139_over.png" />
+    <Content Include="Resources\help\images\img0140.png" />
+    <Content Include="Resources\help\images\img0140_over.png" />
+    <Content Include="Resources\help\images\page_active.png" />
+    <Content Include="Resources\help\images\page_default.png" />
+    <Content Include="Resources\help\images\smart-home_white.png" />
+    <Content Include="Resources\help\index.html" />
+    <Content Include="Resources\help\index_ru.html" />
+    <Content Include="Resources\help\jquery-1.12.4.min.js" />
+    <Content Include="Resources\help\wb.carousel.min.js" />
     <Content Include="SmartHomeController.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
